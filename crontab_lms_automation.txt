@@ -1,0 +1,8 @@
+## CRONTAB -e
+# Automating LMS
+# Run wfh_apply at 9 AM daily
+0 7 * * * DISPLAY=:1 XAUTHORITY=/run/user/1000/gdm/Xauthority /usr/bin/pytho>
+
+# Run status_update at 6 PM daily
+0 20 * * * DISPLAY=:1 XAUTHORITY=/run/user/1000/gdm/Xauthority /usr/bin/pyth>
+
